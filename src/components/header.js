@@ -170,6 +170,14 @@ const Header = ({ siteTitle, themePreference, toggleTheme }) => {
               <ListItemText>Automatic</ListItemText>
             </ListItem>
           </Link>
+          <Link to="/test">
+            <ListItem button>
+              <ListItemIcon>
+                <AppsIcon />
+              </ListItemIcon>
+              <ListItemText>Test</ListItemText>
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
     </div>
